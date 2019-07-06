@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import TextField from "@material-ui/core/TextField";
-
-const defaultText = "Hello, world!";
+import TextInput from "./components/TextInput";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <TextField defaultValue={defaultText} /> 
+        <TextInput />
       </div>
     </div>
   );

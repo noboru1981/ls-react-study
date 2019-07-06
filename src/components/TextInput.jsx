@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import TextField from "@material-ui/core/TextField";
 
-const defaultText = "Hello, world!";
-
-function TextInput()
-{
+function TextInput(props) {
     return (
-        <TextField defaultValue={defaultText} />
+        <TextField defaultValue={props.defaultText} {...props} />
     );
 }
 

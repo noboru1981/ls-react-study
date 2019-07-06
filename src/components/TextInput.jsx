@@ -3,7 +3,7 @@ import TextField from "@material-ui/core/TextField";
 
 function TextInput(props) {
     return (
-        <TextField defaultValue={props.defaultText} {...props} />
+        <TextField {...props} />
     );
 }
 
